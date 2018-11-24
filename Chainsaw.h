@@ -13,7 +13,7 @@ private:
 	int power;
 	int numberOfTurnes;
 protected:
-	int var1;
+	int var1; //var1, var2, var3, var4 - unused variables, just for task
 	int var2;
 public:
 	int var3;
@@ -21,7 +21,7 @@ public:
 	string getName();
 	int getPower();
 	int getNumberOfTurnes();
-	void printAll();
+	void printAllVariables();
 	Chainsaw();
 	Chainsaw(string newName, int newPower, int newNumberOfTurnes, int newVar1, int newVar2);
 	~Chainsaw();

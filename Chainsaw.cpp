@@ -18,7 +18,7 @@ int Chainsaw::getNumberOfTurnes()
 	return numberOfTurnes;
 }
 
-void Chainsaw::printAll()
+void Chainsaw::printAllVariables()
 {
 	cout << "Name: " << name << "\nPower: " << power << "\nNumber Of Turnes: " << numberOfTurnes << "\nVar1: " << var1 << "\nVar2: " << var2 << "\nVar3: " << var3 << "\nVar4: " << var4 << "\n\n";
 }
